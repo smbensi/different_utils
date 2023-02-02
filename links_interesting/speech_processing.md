@@ -7,6 +7,7 @@
 5. [Books](#Books)
 6. [Productivity](#Productivity)
 7. [VsCode](#VsCode)
+8. [NVIDIA, CUDA, TensorRT, Triton](#NVIDIA)
 
 # speech
 
@@ -24,6 +25,9 @@
 
 
 # Courses
+
+## Math
+
 
 ## Deep Learning
 
@@ -45,6 +49,7 @@
 ## CV
 
 * [Szeliski](http://szeliski.org/Book/)
+* [ Intro to Computer Vision and Computational Photography Berkley](https://inst.eecs.berkeley.edu/~cs194-26/fa20/)
 
 ## MLOps
 * [Effective MLOps W&B](https://www.wandb.courses/collections)
@@ -55,4 +60,17 @@
 
 # Productivity
 
+* ["This Is Why You're Lazy & Can't Focus" - FIX THIS TODAY! | Dr. Andrew Huberman](https://www.youtube.com/watch?v=NKyyF9MQXn4)
+
 # VsCode
+
+* [shortcuts pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+* [Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
+
+### docker
+* [Dev Container metadata reference](https://containers.dev/implementors/json_reference/)
+
+
+# NVIDIA
+
+* [How to Install the NVIDIA CUDA Driver, Toolkit, cuDNN, and TensorRT on Linux](https://medium.datadriveninvestor.com/how-to-install-the-nvidia-cuda-driver-toolkit-cudnn-and-tensorrt-on-linux-cd5b3a4f824)
