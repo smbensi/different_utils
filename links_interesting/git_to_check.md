@@ -1,0 +1,3 @@
+* [applied-ml](https://github.com/eugeneyan/applied-ml) : Curated papers, articles, and blogs on data science & machine learning in production. gear
+* [PINTO-MODEL-ZOO](https://github.com/PINTO0309/PINTO_model_zoo): A repository for storing models that have been inter-converted between various frameworks. 
+* [incredible pytorch](https://github.com/ritchieng/the-incredible-pytorch):This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible PyTorch. 
