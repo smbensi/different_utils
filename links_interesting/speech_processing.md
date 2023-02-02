@@ -10,12 +10,16 @@
 8. [NVIDIA, CUDA, TensorRT, Triton](#NVIDIA)
 9. [Code](#CODE)
 10. [Deployment](#DEPLOYMENT)
+11. [Clean Code](#CLEAN_CODE)
+12. [Networking](#NETWORKING)
+13. [Optimization](#OPTIMIZATION)
 # speech
 
 - []_[Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
 - []_[Whisper article](https://cdn.openai.com/papers/whisper.pdf)
 - [Whisper Git](https://github.com/openai/whisper)
-
+ ### Book
+ [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 # Torch
 - [] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
@@ -24,15 +28,22 @@
 # Math
  - [] [A Geometrical Understanding of Matrices](https://gregorygundersen.com/blog/2018/10/24/matrices/)
  - [] [Singular Value Decomposition as Simply as Possible](https://gregorygundersen.com/blog/2018/12/10/svd/)
-
+ - [Essence of Linear Algebra 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  **VERY VERY INTERESTING**
+ - [] [KL divergence explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+ - [] [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+ - [] [AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 
 # Courses
 
+## Algo
+* [CS224 Advanced algos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
+
+
 ## Math
-* [Essence of Linear Algebra 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  **VERY VERY INTERESTING**
 
 ## Machine Learning
 * [MLU explain](https://mlu-explain.github.io/)
+* [Rules of ML Google](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
 ## Deep Learning
 
@@ -52,9 +63,12 @@
 ## Robotics
 * [courses robotics princeton](https://www.youtube.com/playlist?list=PLF8B1bJgOQK67xkgYz_Xtx0ShjcqfdXwE)
 * [Robotics Vision Challenge](https://nikosuenderhauf.github.io/roboticvisionchallenges/index.html)
+* [Intro to Robotics](https://see.stanford.edu/Course/CS223A) course from stanford
 
 ## MLOps
 * [Effective MLOps W&B](https://www.wandb.courses/collections)
+* [Machine Learning Engineering for Production (MLOps) Andrew NG](https://www.youtube.com/playlist?list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
+* [Design Patterns in Machine Learning for MLOps](https://towardsdatascience.com/design-patterns-in-machine-learning-for-mlops-a3f63f745ce4)
 
 ## DataBase
 * [DB freeCodeCamp](https://www.youtube.com/watch?v=4cWkVbC2bNE)
@@ -62,8 +76,14 @@
 
 ## Git
 * Advanced Git tps for Python [article](https://realpython.com/advanced-git-for-pythonistas/)
+* [Git Best Practices – How to Write Meaningful Commits, Effective Pull Requests, and Code Reviews](https://www.freecodecamp.org/news/git-best-practices-commits-and-code-reviews/)
 
 # Books
+## DL
+
+* [Probabilistic ML: Advanced topics](https://probml.github.io/pml-book/book2.html)
+* [How to manage your time as a researcher
+](https://www.nature.com/articles/d41586-022-04364-2)
 
 ## CV
 
@@ -102,8 +122,12 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 * [Model Analyzer Blog](https://developer.nvidia.com/blog/maximizing-deep-learning-inference-performance-with-nvidia-model-analyzer/)
 * [Model Analyzeer Git](https://github.com/triton-inference-server/model_analyzer)
 
-# CUDA
+## CUDA
 * [Extracting information about CUDA crashes from core dumps](https://zdevito.github.io/2022/07/28/cuda-core-dumps.html)
+
+## DLA ( DL accelerator)
+[link git](https://github.com/NVIDIA/Deep-Learning-Accelerator-SW) \
+NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep learning operations.
 
 # CODE
 
@@ -112,3 +136,26 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 # DEPLOYMENT
 * Comprehensive Guide to Deploying Any ML Model as APIs With Python And AWS Lambda
 [article medium](https://towardsdatascience.com/comprehensive-guide-to-deploying-any-ml-model-as-apis-with-python-and-aws-lambda-b441d257f1ec)
+
+# CLEAN CODE
+
+## PYTHON
+* [Python libraries to make your code readable, reliable and maintainable](https://isaak.dev/2020/08/python-libraries-to-make-your-code-readable-and-maintainable)
+
+* [VIM and Python](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+
+* [Absolute vs Relative Imports in Python](https://realpython.com/absolute-vs-relative-python-imports/)
+
+* [Organize Python code like a PRO](https://guicommits.com/organize-python-code-like-a-pro/)
+
+* [How to Write High-Quality Python as a Data Scientist](https://towardsdatascience.com/how-to-write-high-quality-python-as-a-data-scientist-cde99f582675)
+
+# NETWORKING
+* [Learn IP Address Concepts With Python's ipaddress Module](https://realpython.com/python-ipaddress-module/)
+
+# OPTIMIZATION
+
+* [How Deci and Intel Achieved up to 16.8x throughput](https://medium.com/openvino-toolkit/how-deci-and-intel-achieved-up-to-16-8x-b40edb6c01b4)
+* [This AI Method from MIT and IBM Research Improves the Training and Inference Performance of Deep Learning Models on Large Graphs](https://www.marktechpost.com/2022/12/02/this-ai-method-from-mit-and-ibm-research-improves-the-training-and-inference-performance-of-deep-learning-models-on-large-graphs/)
+
+* [Accelerating GPU Applications with NVIDIA Math Libraries](https://developer.nvidia.com/blog/accelerating-gpu-applications-with-nvidia-math-libraries/#cid=hpc03_so-nvsh_en-us)
