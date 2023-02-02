@@ -9,7 +9,7 @@
 7. [VsCode](#VsCode)
 8. [NVIDIA, CUDA, TensorRT, Triton](#NVIDIA)
 9. [Code](#CODE)
-
+10. [Deployment](#DEPLOYMENT)
 # speech
 
 - []_[Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
@@ -30,6 +30,9 @@
 
 ## Math
 * [Essence of Linear Algebra 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  **VERY VERY INTERESTING**
+
+## Machine Learning
+* [MLU explain](https://mlu-explain.github.io/)
 
 ## Deep Learning
 
@@ -88,7 +91,9 @@
 * [How to Install the NVIDIA CUDA Driver, Toolkit, cuDNN, and TensorRT on Linux](https://medium.datadriveninvestor.com/how-to-install-the-nvidia-cuda-driver-toolkit-cudnn-and-tensorrt-on-linux-cd5b3a4f824)
 
 ### Jetson
-* []_[Upgrade Jetson Xavier NX to JetPack 5](https://jetsonhacks.com/2022/11/03/upgrade-jetson-xavier-nx-to-jetpack-5/)
+* []_[Upgrade Jetson Xavier NX to JetPack 5](https://jetsonhacks.com/2022/11/03/upgrade-jetson-xavier-nx-to-jetpack-5/):\
+explain why we can't use a jetpack 4.X bootloader to jetpack5.X
+    
 
 ### TensorRT
 * [trtexec git](https://github.com/NVIDIA/TensorRT/tree/master/samples/trtexec)
@@ -103,3 +108,7 @@
 # CODE
 
 * [papers annotated](https://nn.labml.ai/index.html)
+
+# DEPLOYMENT
+* Comprehensive Guide to Deploying Any ML Model as APIs With Python And AWS Lambda
+[article medium](https://towardsdatascience.com/comprehensive-guide-to-deploying-any-ml-model-as-apis-with-python-and-aws-lambda-b441d257f1ec)
