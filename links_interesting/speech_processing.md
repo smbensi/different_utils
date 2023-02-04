@@ -13,6 +13,12 @@
 11. [Clean Code](#CLEAN_CODE)
 12. [Networking](#NETWORKING)
 13. [Optimization](#OPTIMIZATION)
+14. [Job](#JOBS)
+15. [XTEND](#XTEND)
+16. [Software engineering](#SOFTWARE)
+17. [Docker](#DOCKER)
+18. [Pytorch](#PYTORCH)
+
 # speech
 
 - []_[Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
@@ -34,6 +40,10 @@
  - [] [AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 
 # Courses
+
+
+## List of courses
+* [ ][Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
 
 ## Algo
 * [CS224 Advanced algos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
@@ -70,12 +80,17 @@
 * [Machine Learning Engineering for Production (MLOps) Andrew NG](https://www.youtube.com/playlist?list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
 * [Design Patterns in Machine Learning for MLOps](https://towardsdatascience.com/design-patterns-in-machine-learning-for-mlops-a3f63f745ce4)
 
+* [MLOps primer Elvis](https://github.com/dair-ai/MLOPs-Primer)
+
 ## DataBase
 * [DB freeCodeCamp](https://www.youtube.com/watch?v=4cWkVbC2bNE)
 * Python DB tutorials [Article](https://realpython.com/tutorials/databases/)
 
 ## Git
-* Advanced Git tps for Python [article](https://realpython.com/advanced-git-for-pythonistas/)
+* Advanced Git tips for Python [article](https://realpython.com/advanced-git-for-pythonistas/)
+
+* [ ][Code Review Guidelines for Data Science Teams](https://tdhopper.com/blog/code-review-guidelines)
+
 * [Git Best Practices – How to Write Meaningful Commits, Effective Pull Requests, and Code Reviews](https://www.freecodecamp.org/news/git-best-practices-commits-and-code-reviews/)
 
 # Books
@@ -126,7 +141,7 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 * [Extracting information about CUDA crashes from core dumps](https://zdevito.github.io/2022/07/28/cuda-core-dumps.html)
 
 ## DLA ( DL accelerator)
-[link git](https://github.com/NVIDIA/Deep-Learning-Accelerator-SW) \
+* [link git](https://github.com/NVIDIA/Deep-Learning-Accelerator-SW) \
 NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep learning operations.
 
 # CODE
@@ -159,3 +174,83 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 * [This AI Method from MIT and IBM Research Improves the Training and Inference Performance of Deep Learning Models on Large Graphs](https://www.marktechpost.com/2022/12/02/this-ai-method-from-mit-and-ibm-research-improves-the-training-and-inference-performance-of-deep-learning-models-on-large-graphs/)
 
 * [Accelerating GPU Applications with NVIDIA Math Libraries](https://developer.nvidia.com/blog/accelerating-gpu-applications-with-nvidia-math-libraries/#cid=hpc03_so-nvsh_en-us)
+
+# JOBS
+
+* [ ] [Passer de développeur à product manager pour booster votre carrière](https://korben.info/passer-de-developpeur-a-product-manager-pour-booster-votre-carriere.html)
+
+* [ ] [How to Prepare for Technical Interviews – Problem-Solving Tips + Mindset Tricks to Get You Ready](https://www.freecodecamp.org/news/problem-solving-and-technical-interview-prep/)
+
+* [ ] [StrataScratch is a data science platform with over 1,000+ real interview questions from your favorite companies](https://www.stratascratch.com/)
+
+* [ ][Navigate Through the Current AI Job Market: A Retrospect](http://billy-inn.github.io/blog/2022/01/06/navigate-through-the-current-ai-job-market-a-retrospect/)
+
+* [ ][building a career in AI.](https://www.deeplearning.ai/the-batch/issue-160/)
+
+
+# XTEND
+
+## General
+
+* [ ][The Future of Robotics is Now and it’s Open-Source](https://adinkratech.com/the-future-of-robotics-is-now-and-its-open-source/)
+
+* [ ][Extracting value from siloed healthcare data using federated learning with Azure Machine Learning](https://customers.microsoft.com/en-us/story/1587521717158304168-microsoft-partner-professional-services-azure?utm_content=234410265&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024)
+
+* [ ][Advancing AI in Robotics, NVIDIA Presents Research Breakthroughs at ICRA](https://blogs.nvidia.com/blog/2022/05/16/robotics-research-development-icra/?ncid=so-link-306269&=&linkId=100000125649430#cid=em03_so-link_en-us)
+
+## Vitals
+
+* [ ] [A Review on Computer Vision Technology for Physical Exercise Monitoring](https://www.mdpi.com/1999-4893/15/12/444)
+
+* [ ] [https://www.mdpi.com/2313-433X/8/9/245](Using Computer Vision to Track Facial Color Changes and Predict Heart Rate)
+
+
+# SOFTWARE ENGINEERING
+
+## GENERAL
+* [ ] [What is a Framework? Software Frameworks Definition](https://www.freecodecamp.org/news/what-is-a-framework-software-frameworks-definition/)
+
+* [ ][Building a Machine Learning Microservice with FastAPI](https://developer.nvidia.com/blog/building-a-machine-learning-microservice-with-fastapi/)
+
+* [ ][Design Patterns in Machine Learning Code and Systems](https://eugeneyan.com/writing/design-patterns/)
+
+## PYTHON
+
+* [ ][Understanding the Python Traceback](https://realpython.com/python-traceback/)
+
+* [ ][Advanced Python Tutorials](https://realpython.com/tutorials/advanced/)
+
+* [ ][Queues in Python](https://realpython.com/queue-in-python/)
+
+* [ ][Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
+
+* [ ][MicroPython: An Intro to Programming Hardware in Python](https://realpython.com/micropython/)
+
+* [ ][Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
+
+* [ ][Python Microservices With gRPC](https://realpython.com/python-microservices-grpc/)
+
+* [ ][Functionnal Programming](https://realpython.com/learning-paths/functional-programming/)
+# DOCKER
+
+* [ ][How To Sync Your Working Environment With Docker Jupyter Notebooks](https://predictivehacks.com/how-to-sync-your-working-environment-with-docker-jupyter-notebooks/)
+
+* [ ][Running Jupyter Notebooks On Docker Containers](https://towardsdatascience.com/running-jupyter-notebooks-on-docker-containers-47862f6b96a0)
+
+# PYTORCH
+
+* [ ][Model Training in PyTorch Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/)
+
+* [ ][Logistic Regression for Multiple Classes Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/)
+
+* [ ][PyTorch Performance Tuning Guide YouTube](https://www.youtube.com/watch?app=desktop&v=9mS1fIYj1So)
+
+* [ ][An Introduction to Datasets and DataLoader in PyTorch W&B](https://wandb.ai/sauravmaheshkar/Dataset-DataLoader/reports/An-Introduction-to-Datasets-and-DataLoader-in-PyTorch--VmlldzoxMDI5MTY2)
+
+* [ ][Classification Loss Functions: Comparing SoftMax, Cross Entropy, and More W&B](https://wandb.ai/capecape/classification-techniques/reports/Classification-Loss-Functions-Comparing-SoftMax-Cross-Entropy-and-More--VmlldzoxODEwNTM5)
+
+* [ ][PyTorch’s Tracing Based Selective Build](https://pytorch.org/blog/pytorchs-tracing-based-selective-build/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=evergreen)
+
+* [ ][REAL TIME INFERENCE ON RASPBERRY PI 4 (30 FPS!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
+
+* [ ][How to Convert a PyTorch Model to ONNX in 5 Minutes DeCi AI](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)
