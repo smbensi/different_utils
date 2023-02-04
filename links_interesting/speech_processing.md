@@ -17,7 +17,7 @@
 15. [XTEND](#XTEND)
 16. [Software engineering](#SOFTWARE)
 17. [Docker](#DOCKER)
-18. [Pytorch](#PYTORCH)
+18. [interesting blogs](#BLOGS)
 19. [Research](#RESEARCH)
 
 # speech
@@ -25,11 +25,30 @@
 - [ ] [Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
 - [ ] [Whisper article](https://cdn.openai.com/papers/whisper.pdf)
 - [Whisper Git](https://github.com/openai/whisper)
+
+- [ ] [GIT ASR META wav2letter](https://github.com/flashlight/wav2letter)
+
  ### Book
  [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 # Torch
-- [] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
+- [ ] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
+
+* [ ] [Model Training in PyTorch Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/)
+
+* [ ] [Logistic Regression for Multiple Classes Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/)
+
+* [ ] [PyTorch Performance Tuning Guide YouTube](https://www.youtube.com/watch?app=desktop&v=9mS1fIYj1So)
+
+* [ ] [An Introduction to Datasets and DataLoader in PyTorch W&B](https://wandb.ai/sauravmaheshkar/Dataset-DataLoader/reports/An-Introduction-to-Datasets-and-DataLoader-in-PyTorch--VmlldzoxMDI5MTY2)
+
+* [ ] [Classification Loss Functions: Comparing SoftMax, Cross Entropy, and More W&B](https://wandb.ai/capecape/classification-techniques/reports/Classification-Loss-Functions-Comparing-SoftMax-Cross-Entropy-and-More--VmlldzoxODEwNTM5)
+
+* [ ] [PyTorch’s Tracing Based Selective Build](https://pytorch.org/blog/pytorchs-tracing-based-selective-build/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=evergreen)
+
+* [ ] [REAL TIME INFERENCE ON RASPBERRY PI 4 (30 FPS!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
+
+* [ ] [How to Convert a PyTorch Model to ONNX in 5 Minutes DeCi AI](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)
 
 
 # Math
@@ -126,6 +145,8 @@
 
 * [ ] [How to Install the NVIDIA CUDA Driver, Toolkit, cuDNN, and TensorRT on Linux](https://medium.datadriveninvestor.com/how-to-install-the-nvidia-cuda-driver-toolkit-cudnn-and-tensorrt-on-linux-cd5b3a4f824)
 
+* [ ] [Develop like a Pro with NVIDIA + Docker + VS Code + PyTorch](https://blog.roboflow.com/nvidia-docker-vscode-pytorch/)
+
 ### Jetson
 * [ ] [Upgrade Jetson Xavier NX to JetPack 5](https://jetsonhacks.com/2022/11/03/upgrade-jetson-xavier-nx-to-jetpack-5/):\
 explain why we can't use a jetpack 4.X bootloader to jetpack5.X
@@ -134,6 +155,8 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 
 ### TensorRT
 * [trtexec git](https://github.com/NVIDIA/TensorRT/tree/master/samples/trtexec)
+
+* [A Guide to using TensorRT on the Nvidia Jetson Nano](https://docs.donkeycar.com/guide/robot_sbc/tensorrt_jetson_nano/)
 
 ### Triton
 * [Model Analyzer Blog](https://developer.nvidia.com/blog/maximizing-deep-learning-inference-performance-with-nvidia-model-analyzer/)
@@ -244,29 +267,22 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 
 * [ ] [Running Jupyter Notebooks On Docker Containers](https://towardsdatascience.com/running-jupyter-notebooks-on-docker-containers-47862f6b96a0)
 
-# PYTORCH
+## kubernetes
 
-* [ ] [Model Training in PyTorch Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/)
+* [ ] [Getting started with Kubernetes](https://sindhumurugavel.medium.com/getting-started-with-kubernetes-9fb8995d0726)
 
-* [ ] [Logistic Regression for Multiple Classes Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/)
+# BLOGS
 
-* [ ] [PyTorch Performance Tuning Guide YouTube](https://www.youtube.com/watch?app=desktop&v=9mS1fIYj1So)
+* [explanation of many mathematical/ ML terms](https://gregorygundersen.com/blog/tags/all/)
 
-* [ ] [An Introduction to Datasets and DataLoader in PyTorch W&B](https://wandb.ai/sauravmaheshkar/Dataset-DataLoader/reports/An-Introduction-to-Datasets-and-DataLoader-in-PyTorch--VmlldzoxMDI5MTY2)
-
-* [ ] [Classification Loss Functions: Comparing SoftMax, Cross Entropy, and More W&B](https://wandb.ai/capecape/classification-techniques/reports/Classification-Loss-Functions-Comparing-SoftMax-Cross-Entropy-and-More--VmlldzoxODEwNTM5)
-
-* [ ] [PyTorch’s Tracing Based Selective Build](https://pytorch.org/blog/pytorchs-tracing-based-selective-build/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=evergreen)
-
-* [ ] [REAL TIME INFERENCE ON RASPBERRY PI 4 (30 FPS!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
-
-* [ ] [How to Convert a PyTorch Model to ONNX in 5 Minutes DeCi AI](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)
-
+* [Optimization with pytorch](https://paulbridger.com/)
 # RESEARCH
 
 ## General
 
 * [ ] [How to Read More Research Papers?](https://www.louisbouchard.ai/research-papers/)
+
+* [WEEKLY PAPERS](https://papers.labml.ai/papers/weekly)
 
 ## Computer Vision
 
