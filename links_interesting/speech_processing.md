@@ -18,11 +18,12 @@
 16. [Software engineering](#SOFTWARE)
 17. [Docker](#DOCKER)
 18. [Pytorch](#PYTORCH)
+19. [Research](#RESEARCH)
 
 # speech
 
-- []_[Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
-- []_[Whisper article](https://cdn.openai.com/papers/whisper.pdf)
+- [ ] [Whisper explanation](https://towardsdatascience.com/whisper-transcribe-translate-audio-files-with-human-level-performance-df044499877)
+- [ ] [Whisper article](https://cdn.openai.com/papers/whisper.pdf)
 - [Whisper Git](https://github.com/openai/whisper)
  ### Book
  [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
@@ -32,21 +33,21 @@
 
 
 # Math
- - [] [A Geometrical Understanding of Matrices](https://gregorygundersen.com/blog/2018/10/24/matrices/)
- - [] [Singular Value Decomposition as Simply as Possible](https://gregorygundersen.com/blog/2018/12/10/svd/)
+ - [ ] [A Geometrical Understanding of Matrices](https://gregorygundersen.com/blog/2018/10/24/matrices/)
+ - [ ] [Singular Value Decomposition as Simply as Possible](https://gregorygundersen.com/blog/2018/12/10/svd/)
  - [Essence of Linear Algebra 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  **VERY VERY INTERESTING**
- - [] [KL divergence explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
- - [] [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
- - [] [AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
+ - [ ] [KL divergence explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+ - [ ] [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+ - [ ] [AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 
 # Courses
 
 
 ## List of courses
-* [ ][Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
+* [ ] [Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
 
 ## Algo
-* [CS224 Advanced algos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
+* [ ] [CS224 Advanced algos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
 
 
 ## Math
@@ -123,12 +124,13 @@
 
 # NVIDIA
 
-* [How to Install the NVIDIA CUDA Driver, Toolkit, cuDNN, and TensorRT on Linux](https://medium.datadriveninvestor.com/how-to-install-the-nvidia-cuda-driver-toolkit-cudnn-and-tensorrt-on-linux-cd5b3a4f824)
+* [ ] [How to Install the NVIDIA CUDA Driver, Toolkit, cuDNN, and TensorRT on Linux](https://medium.datadriveninvestor.com/how-to-install-the-nvidia-cuda-driver-toolkit-cudnn-and-tensorrt-on-linux-cd5b3a4f824)
 
 ### Jetson
-* []_[Upgrade Jetson Xavier NX to JetPack 5](https://jetsonhacks.com/2022/11/03/upgrade-jetson-xavier-nx-to-jetpack-5/):\
+* [ ] [Upgrade Jetson Xavier NX to JetPack 5](https://jetsonhacks.com/2022/11/03/upgrade-jetson-xavier-nx-to-jetpack-5/):\
 explain why we can't use a jetpack 4.X bootloader to jetpack5.X
-    
+
+* [ ] [Aetina lance de nouveaux systèmes et plateformes embarqués DeviceEdge alimentés par NVIDIA Jetson Orin NX et Orin Nano](https://www.lelezard.com/communique-20724604.html)    
 
 ### TensorRT
 * [trtexec git](https://github.com/NVIDIA/TensorRT/tree/master/samples/trtexec)
@@ -143,6 +145,10 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 ## DLA ( DL accelerator)
 * [link git](https://github.com/NVIDIA/Deep-Learning-Accelerator-SW) \
 NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep learning operations.
+
+## GPU
+
+* [ ] [Boosting Machine Learning Workflows with GPU-Accelerated Libraries](https://towardsdatascience.com/boosting-machine-learning-workflows-with-gpu-accelerated-libraries-1f95feef68d4)
 
 # CODE
 
@@ -183,20 +189,20 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 
 * [ ] [StrataScratch is a data science platform with over 1,000+ real interview questions from your favorite companies](https://www.stratascratch.com/)
 
-* [ ][Navigate Through the Current AI Job Market: A Retrospect](http://billy-inn.github.io/blog/2022/01/06/navigate-through-the-current-ai-job-market-a-retrospect/)
+* [ ] [Navigate Through the Current AI Job Market: A Retrospect](http://billy-inn.github.io/blog/2022/01/06/navigate-through-the-current-ai-job-market-a-retrospect/)
 
-* [ ][building a career in AI.](https://www.deeplearning.ai/the-batch/issue-160/)
+* [ ] [building a career in AI.](https://www.deeplearning.ai/the-batch/issue-160/)
 
 
 # XTEND
 
 ## General
 
-* [ ][The Future of Robotics is Now and it’s Open-Source](https://adinkratech.com/the-future-of-robotics-is-now-and-its-open-source/)
+* [ ] [The Future of Robotics is Now and it’s Open-Source](https://adinkratech.com/the-future-of-robotics-is-now-and-its-open-source/)
 
-* [ ][Extracting value from siloed healthcare data using federated learning with Azure Machine Learning](https://customers.microsoft.com/en-us/story/1587521717158304168-microsoft-partner-professional-services-azure?utm_content=234410265&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024)
+* [ ] [Extracting value from siloed healthcare data using federated learning with Azure Machine Learning](https://customers.microsoft.com/en-us/story/1587521717158304168-microsoft-partner-professional-services-azure?utm_content=234410265&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024)
 
-* [ ][Advancing AI in Robotics, NVIDIA Presents Research Breakthroughs at ICRA](https://blogs.nvidia.com/blog/2022/05/16/robotics-research-development-icra/?ncid=so-link-306269&=&linkId=100000125649430#cid=em03_so-link_en-us)
+* [ ] [Advancing AI in Robotics, NVIDIA Presents Research Breakthroughs at ICRA](https://blogs.nvidia.com/blog/2022/05/16/robotics-research-development-icra/?ncid=so-link-306269&=&linkId=100000125649430#cid=em03_so-link_en-us)
 
 ## Vitals
 
@@ -210,47 +216,64 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 ## GENERAL
 * [ ] [What is a Framework? Software Frameworks Definition](https://www.freecodecamp.org/news/what-is-a-framework-software-frameworks-definition/)
 
-* [ ][Building a Machine Learning Microservice with FastAPI](https://developer.nvidia.com/blog/building-a-machine-learning-microservice-with-fastapi/)
+* [ ] [Building a Machine Learning Microservice with FastAPI](https://developer.nvidia.com/blog/building-a-machine-learning-microservice-with-fastapi/)
 
-* [ ][Design Patterns in Machine Learning Code and Systems](https://eugeneyan.com/writing/design-patterns/)
+* [ ] [Design Patterns in Machine Learning Code and Systems](https://eugeneyan.com/writing/design-patterns/)
 
 ## PYTHON
 
-* [ ][Understanding the Python Traceback](https://realpython.com/python-traceback/)
+* [ ] [Understanding the Python Traceback](https://realpython.com/python-traceback/)
 
-* [ ][Advanced Python Tutorials](https://realpython.com/tutorials/advanced/)
+* [ ] [Advanced Python Tutorials](https://realpython.com/tutorials/advanced/)
 
-* [ ][Queues in Python](https://realpython.com/queue-in-python/)
+* [ ] [Queues in Python](https://realpython.com/queue-in-python/)
 
-* [ ][Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
+* [ ] [Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
 
-* [ ][MicroPython: An Intro to Programming Hardware in Python](https://realpython.com/micropython/)
+* [ ] [MicroPython: An Intro to Programming Hardware in Python](https://realpython.com/micropython/)
 
-* [ ][Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
+* [ ] [Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
 
-* [ ][Python Microservices With gRPC](https://realpython.com/python-microservices-grpc/)
+* [ ] [Python Microservices With gRPC](https://realpython.com/python-microservices-grpc/)
 
-* [ ][Functionnal Programming](https://realpython.com/learning-paths/functional-programming/)
+* [ ] [Functionnal Programming](https://realpython.com/learning-paths/functional-programming/)
+
 # DOCKER
 
-* [ ][How To Sync Your Working Environment With Docker Jupyter Notebooks](https://predictivehacks.com/how-to-sync-your-working-environment-with-docker-jupyter-notebooks/)
+* [ ] [How To Sync Your Working Environment With Docker Jupyter Notebooks](https://predictivehacks.com/how-to-sync-your-working-environment-with-docker-jupyter-notebooks/)
 
-* [ ][Running Jupyter Notebooks On Docker Containers](https://towardsdatascience.com/running-jupyter-notebooks-on-docker-containers-47862f6b96a0)
+* [ ] [Running Jupyter Notebooks On Docker Containers](https://towardsdatascience.com/running-jupyter-notebooks-on-docker-containers-47862f6b96a0)
 
 # PYTORCH
 
-* [ ][Model Training in PyTorch Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/)
+* [ ] [Model Training in PyTorch Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/)
 
-* [ ][Logistic Regression for Multiple Classes Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/)
+* [ ] [Logistic Regression for Multiple Classes Lightning](https://lightning.ai/pages/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/)
 
-* [ ][PyTorch Performance Tuning Guide YouTube](https://www.youtube.com/watch?app=desktop&v=9mS1fIYj1So)
+* [ ] [PyTorch Performance Tuning Guide YouTube](https://www.youtube.com/watch?app=desktop&v=9mS1fIYj1So)
 
-* [ ][An Introduction to Datasets and DataLoader in PyTorch W&B](https://wandb.ai/sauravmaheshkar/Dataset-DataLoader/reports/An-Introduction-to-Datasets-and-DataLoader-in-PyTorch--VmlldzoxMDI5MTY2)
+* [ ] [An Introduction to Datasets and DataLoader in PyTorch W&B](https://wandb.ai/sauravmaheshkar/Dataset-DataLoader/reports/An-Introduction-to-Datasets-and-DataLoader-in-PyTorch--VmlldzoxMDI5MTY2)
 
-* [ ][Classification Loss Functions: Comparing SoftMax, Cross Entropy, and More W&B](https://wandb.ai/capecape/classification-techniques/reports/Classification-Loss-Functions-Comparing-SoftMax-Cross-Entropy-and-More--VmlldzoxODEwNTM5)
+* [ ] [Classification Loss Functions: Comparing SoftMax, Cross Entropy, and More W&B](https://wandb.ai/capecape/classification-techniques/reports/Classification-Loss-Functions-Comparing-SoftMax-Cross-Entropy-and-More--VmlldzoxODEwNTM5)
 
-* [ ][PyTorch’s Tracing Based Selective Build](https://pytorch.org/blog/pytorchs-tracing-based-selective-build/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=evergreen)
+* [ ] [PyTorch’s Tracing Based Selective Build](https://pytorch.org/blog/pytorchs-tracing-based-selective-build/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=evergreen)
 
-* [ ][REAL TIME INFERENCE ON RASPBERRY PI 4 (30 FPS!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
+* [ ] [REAL TIME INFERENCE ON RASPBERRY PI 4 (30 FPS!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html)
 
-* [ ][How to Convert a PyTorch Model to ONNX in 5 Minutes DeCi AI](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)
+* [ ] [How to Convert a PyTorch Model to ONNX in 5 Minutes DeCi AI](https://deci.ai/blog/how-to-convert-a-pytorch-model-to-onnx/)
+
+# RESEARCH
+
+## General
+
+* [ ] [How to Read More Research Papers?](https://www.louisbouchard.ai/research-papers/)
+
+## Computer Vision
+
+* [ ] [Blog Predicting How Images Influence Visual Reaction Speed](https://developer.nvidia.com/blog/predicting-how-images-influence-visual-reaction-speed/#cid=sigg22_so-twit_en-us)
+
+## NLP
+
+* [ ] [ MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages](https://paperswithcode.com/dataset/massive)
+
+* [ ] [Meta AI’s updated data2vec algorithm enables faster, more efficient self-learning for vision, speech and text AI](https://siliconangle.com/2022/12/13/meta-ais-updated-data2vec-algorithm-enables-faster-efficient-self-learning-vision-speech-text-ai/)
