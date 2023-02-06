@@ -28,10 +28,6 @@
 
 - [ ] [GIT ASR META wav2letter](https://github.com/flashlight/wav2letter)
 
- ### Book
- * [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
- 
- * [google Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
 
 # Torch
 - [ ] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
@@ -121,6 +117,13 @@
 * [Probabilistic ML: Advanced topics](https://probml.github.io/pml-book/book2.html)
 * [How to manage your time as a researcher
 ](https://www.nature.com/articles/d41586-022-04364-2)
+* [google Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+
+
+## Speech
+
+* [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
+ 
 
 ## CV
 
