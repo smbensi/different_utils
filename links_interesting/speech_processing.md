@@ -29,7 +29,9 @@
 - [ ] [GIT ASR META wav2letter](https://github.com/flashlight/wav2letter)
 
  ### Book
- [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
+ * [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
+ 
+ * [google Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
 
 # Torch
 - [ ] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
