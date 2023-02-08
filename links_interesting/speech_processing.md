@@ -162,6 +162,8 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 * [Model Analyzer Blog](https://developer.nvidia.com/blog/maximizing-deep-learning-inference-performance-with-nvidia-model-analyzer/)
 * [Model Analyzeer Git](https://github.com/triton-inference-server/model_analyzer)
 
+* [ ] [Benchmarking Triton (TensorRT) Inference Server for Transformer Models](https://blog.salesforceairesearch.com/benchmarking-tensorrt-inference-server/)
+
 ## CUDA
 * [Extracting information about CUDA crashes from core dumps](https://zdevito.github.io/2022/07/28/cuda-core-dumps.html)
 
@@ -231,7 +233,7 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 
 * [ ] [A Review on Computer Vision Technology for Physical Exercise Monitoring](https://www.mdpi.com/1999-4893/15/12/444)
 
-* [ ] [https://www.mdpi.com/2313-433X/8/9/245](Using Computer Vision to Track Facial Color Changes and Predict Heart Rate)
+* [ ] [Using Computer Vision to Track Facial Color Changes and Predict Heart Rate](https://www.mdpi.com/2313-433X/8/9/245)
 
 
 # SOFTWARE ENGINEERING
@@ -284,9 +286,15 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 
 * [WEEKLY PAPERS](https://papers.labml.ai/papers/weekly)
 
+* [ ] [Top Deep Learning Papers of 2022](https://medium.com/@diegobonila/top-deep-learning-papers-of-2022-a4826e0aac4)
+
 ## Computer Vision
 
 * [ ] [Blog Predicting How Images Influence Visual Reaction Speed](https://developer.nvidia.com/blog/predicting-how-images-influence-visual-reaction-speed/#cid=sigg22_so-twit_en-us)
+
+* [ ] [Modular image processing pipeline using OpenCV and Python generators](https://medium.com/deepvisionguru/modular-image-processing-pipeline-using-opencv-and-python-generators-9edca3ccb696)
+
+* [ ] [Video processing pipeline with OpenCV](https://medium.com/deepvisionguru/video-processing-pipeline-with-opencv-ac10187d75b)
 
 ## NLP
 
