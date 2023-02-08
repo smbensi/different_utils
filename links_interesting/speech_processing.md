@@ -28,8 +28,6 @@
 
 - [ ] [GIT ASR META wav2letter](https://github.com/flashlight/wav2letter)
 
- ### Book
- [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 # Torch
 - [ ] [understand TorchScript](https://paulbridger.com/posts/mastering-torchscript/)
@@ -101,6 +99,7 @@
 * [Design Patterns in Machine Learning for MLOps](https://towardsdatascience.com/design-patterns-in-machine-learning-for-mlops-a3f63f745ce4)
 
 * [MLOps primer Elvis](https://github.com/dair-ai/MLOPs-Primer)
+* [MLOps series AI epiphany](https://www.youtube.com/watch?v=LdLFJUlPa4Y)
 
 ## DataBase
 * [DB freeCodeCamp](https://www.youtube.com/watch?v=4cWkVbC2bNE)
@@ -119,6 +118,13 @@
 * [Probabilistic ML: Advanced topics](https://probml.github.io/pml-book/book2.html)
 * [How to manage your time as a researcher
 ](https://www.nature.com/articles/d41586-022-04364-2)
+* [google Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+
+
+## Speech
+
+* [Speech and Language processing](https://web.stanford.edu/~jurafsky/slp3/)
+ 
 
 ## CV
 
