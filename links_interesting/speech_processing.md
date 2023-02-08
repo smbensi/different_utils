@@ -99,6 +99,7 @@
 * [Design Patterns in Machine Learning for MLOps](https://towardsdatascience.com/design-patterns-in-machine-learning-for-mlops-a3f63f745ce4)
 
 * [MLOps primer Elvis](https://github.com/dair-ai/MLOPs-Primer)
+* [MLOps series AI epiphany](https://www.youtube.com/watch?v=LdLFJUlPa4Y)
 
 ## DataBase
 * [DB freeCodeCamp](https://www.youtube.com/watch?v=4cWkVbC2bNE)
