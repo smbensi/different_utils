@@ -63,6 +63,12 @@
 ## List of courses
 * [ ] [Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
 
+## video streaming
+* [ ] [digital video intro](https://github.com/leandromoreira/digital_video_introduction#redundancy-removal)
+* [ ] [how video works](https://howvideo.works/#playback)
+* [ ] [intro FFMPEG ](https://github.com/leandromoreira/ffmpeg-libav-tutorial#ffmpeg-libav-architecture)
+
+
 ## Algo
 * [ ] [CS224 Advanced algos](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
 

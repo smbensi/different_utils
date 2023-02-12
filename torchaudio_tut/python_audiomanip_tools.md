@@ -135,11 +135,129 @@ status = sounddevice.wait()
 
 Let's move onto how to change the audio data. The first thing we'll cover is clipping or trimming audio data. We'll need 2 more libraries, `pydub` and `ffmpeg-python`
 
-### clip audio with pydub
+## clip audio with pydub
 
 To trim audio data with `pydub`, we only need the `AudioSegment` object. To start, we'll define the first and last milliseconds we want to clip out. Then, we'll load the audio file with `AudioSegment`
 
-# Tutorial torchaudio
+To clip our audio file down, we'll create a list that only contains the data from the start to the end millisecond in our audio file. Finally, we'll use the `export` function of the `AudioSegment` object we extracted to save the file in `.wav` format
 
-* on peut ajouter des effets sur des wav grace a `sox` il existe une liste dans la doc de [sox](https://sox.sourceforge.net/sox.html) et en utilisant la fonction `sox_effects.apply_effects_tensor` elle returne 2 valeurs **waveform** et **new sample rate**
+```python
 
+from pydub import AudioSegment
+
+# start at 0 ms end at 1500 ms
+start = 0
+end = 1500
+
+sound = AudioSegment.from_wav("output_pyaudio.wav")
+extract = sound[start:end]
+
+extract.export("trimmed_output_pydub.wav", format="wav")
+
+```
+
+## Trim audio clips with FFMPEG
+
+FFMPEG is a well known audio manipulation library, usually in CLI. You can use the `sys` and `subprocess` libraries that are native to Python to use FFMPEG, but the SDK is easier.
+> to install : pip install ffmeg-python
+
+We import it as just `ffmpeg`. The first thing we'll do is get an input object.
+Then we'll use the `ffmpeg.input` object to call the `atrim` function and trim the recording down to 1 second. Next, we'll create an output using the newly cut data. Finally, we'll need to call `ffmpeg` to actually run the `output` call and save our file.
+
+```python
+
+import ffmpeg
+
+audio_input = ffmpeg.input("output_sounddevice.wav")
+audio_cut = audio_input.audio.filter('atrim', duration=1)
+audio_output = ffmpeg.output(audio_cut, 'trimmed_output_ffmpeg.wav", format="wav")
+ffmpeg.run(audio_output)
+```
+
+
+# Manipulating Audio Data sampling rates with Python
+
+Sampling rates play a hug part in how audio data sounds. When you change it, it can affect the speed, the pitch, and the quality of your sound
+
+## Pydub
+
+The `AudioSegment` has a `set_frame_rate` command that can be used to set the frame rate of the audio segment without changing the pitch, speed, or applying any other distortions.
+
+```python
+from pydub import AudioSegment
+
+sound = AudioSegment.from_wav('output_pyaudio.wav')
+sound_w_new_fs = sound.set_frame_rate(16000)
+sound_w_new_fs.export("new_fs_output_pydub.wav",format="wav")
+
+```
+
+## Scipy
+
+Read in the sample rate and audio data using `wavfile`. Using the read-in sample rate and the desired new sample rate, create a new number of samples. The resample function applies a FFT and may cause distortion.
+```python
+from scipy.io import wavfile
+import scipy.signal
+
+new_fs = 88200
+sample_rate, data = wavfile.read('output_pyaudio.wav')
+# resample data
+new_num_samples = round(len(data)* float(new_fs)/sample_rate)
+data = scipy.signal.resample(data, new_num_samples)
+wavfile.write(filename="new_fs_output_scipy.wav", rate=88200, data=data)
+
+```
+
+# Changing the Volume of audio data with Python
+
+Changing volume with the `AudioSegment` object from `pydub` is extremely easy. The only thing we need to do is add or subtract from the object representing the open `.wav` file
+
+```python
+from pydub import AudioSegment
+from pydub.playback import play
+
+sound = AudioSegment.from_wav("new_fs_output_pydub.wav")
+
+# 3 dB up
+louder = sound + 3
+# 3 dB down
+quieter = sound - 3
+
+play(louder)
+play(quieter)
+
+```
+
+# Combining 2 audio files with Python
+We can also use `pydub`
+
+```python
+from pydub import AudioSegment
+
+sound1 = AudioSegment.from_wav('louder_output.wav')
+sound2 = AudioSegment.from_wav('quieter_output.wav')
+combined = sound1 + sound2
+
+```
+
+# Overlay 2 audio files
+Call the `overlay` function in `pydub` and pass it the sound we wabt to overlay and the position in ms we want to overlay it at.
+
+```python
+from pydub import AudioSegment
+
+sound1 = AudioSegment.from_wav('louder_output.wav')
+sound2 = AudioSegment.from_wav('quieter_output.wav')
+
+overlay = sound1.overlay(sound2, position=1000)
+```
+
+# Changing audio file formats
+The `AudioSegment` object's `export` function can define the output object's format.
+
+```python
+from pydub import AudioSegment
+
+wav_audio = AudioSegment.from_wav("louder_output.wav")
+mp3_audio = wav_audio.export("louder.mp3", format="mp3")
+```
