@@ -3,6 +3,7 @@ import time
 
 def main():
     window_title = "CSI Camera"
+    
     # video_capture = cv2.VideoCapture("/dev/video0")
     video_capture = cv2.VideoCapture("rtsp://10.0.0.12:8554/test")
     video_capture.set(cv2.CAP_PROP_BUFFERSIZE,1)

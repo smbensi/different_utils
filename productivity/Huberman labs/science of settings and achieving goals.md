@@ -13,3 +13,16 @@ that thing
 ## What should be the error rate to learn
 
 **85% rule for optimal learning**   
+
+neurocircuit is an ensemble of brain areas that when they are active give rise to a special behavior.
+
+4 areas involved in goal setting and achieving goal:
+- anxiety and fear
+- emotion
+- planning and thinking across different time-scale
+- go/no-go action
+
+Value info \
+Action : which action to take or not given the value
+
+The neuro-modulator **dopamine** governs our goal setting, goal assesment, and goal pursuit
