@@ -25,3 +25,31 @@ DNS: domain name system : map human readable --> ip adresses \
 2. use IP to make the request across the Internet \
 
 `cloudflare-dns` API  nice tool `jsonlint` [link](https://jsonlint.com/)
+
+the organisation ICANN manages DNS for the entire internet. they manage the "phonebook"
+
+TLD: Top-Level Domain  \
+subdomain: for example `api.boot.dev` or `blog.boot.dev`it prefixes a domain name
+
+## URL and URI
+
+URI is a superset of URL. URL are on kind of URI
+
+URL parts: *http://testuser:testpass@testdomain.com:8080/testpath?testsearch=testvalue#testhash*
+* protocol: http (required)
+* username: testuser
+* password: testpass
+* hostname: testdomain.com (required)
+* port: 8080 (default is used if one is not provided)
+* pathname: /testpatth (default / is used if one isn't provided)
+* search: ?testsearch=testvalue
+* hash: #testhash
+
+## Ports
+
+they are virtual hub  \
+ the default port is defined by the protocol (80 for HTTP)
+
+## Synchronous vs Asynchronous
+
+`async` code runs in parallel
