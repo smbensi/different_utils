@@ -94,6 +94,8 @@
 
 * [Harvard CS197: AI Research Experiences – The Course Book](https://docs.google.com/document/d/1uvAbEhbgS_M-uDMTzmOWRlYxqCkogKRXdbKYYT98ooc/edit#heading=h.abhahcuhwib5)
 
+* [LLMs course](https://stanford-cs324.github.io/winter2022/lectures/)
+
 ## Robotics
 * [courses robotics princeton](https://www.youtube.com/playlist?list=PLF8B1bJgOQK67xkgYz_Xtx0ShjcqfdXwE)
 * [Robotics Vision Challenge](https://nikosuenderhauf.github.io/roboticvisionchallenges/index.html)
