@@ -190,6 +190,7 @@ NVIDIA DLA hardware is a fixed-function accelerator engine targeted for deep lea
 # CODE
 
 * [papers annotated](https://nn.labml.ai/index.html)
+* [PYTHON timeout decorator](https://towardsdatascience.com/adding-timeouts-to-functions-using-wrapt-timeout-decorator-21790890a49b)
 
 # DEPLOYMENT
 * Comprehensive Guide to Deploying Any ML Model as APIs With Python And AWS Lambda
