@@ -4,6 +4,7 @@
 
 1. [ ] tester le RNN-T de NeMo
 2. [ ] Whisper comprendre pourquoi c'est trop lourd pour le Xavier
+3. [ ] utiliser la speaker diarization pour reconnaitre la personne disant le wakeword et la differencier par la suite par rapport aux autres personnes qui parlent (a part si une personne dit le wakeword pr qq un dautres)
 
 
 # probleme en python
