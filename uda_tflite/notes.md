@@ -44,4 +44,4 @@ converter.representative_dataset = tf.lite.RepresentativeDataset(generator)
 converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS_INT8]
 ```
 
-![quantization](uda_tflite/TFLITE_quantiz.png)
+![quantization](TFLITE_quantiz.png)
