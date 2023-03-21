@@ -171,6 +171,8 @@ explain why we can't use a jetpack 4.X bootloader to jetpack5.X
 * [trtexec git](https://github.com/NVIDIA/TensorRT/tree/master/samples/trtexec)
 
 * [A Guide to using TensorRT on the Nvidia Jetson Nano](https://docs.donkeycar.com/guide/robot_sbc/tensorrt_jetson_nano/)
+* [ ] [convert to TensorRT](https://towardsdatascience.com/how-to-convert-your-custom-model-into-tensorrt-5a2ea1dec2e4)
+* [ ] [Quantization DeCi](https://deci.ai/quantization-and-quantization-aware-training/?utm_campaign=Marketing%20Newsletter&utm_medium=email&_hsmi=248499714&_hsenc=p2ANqtz-9agyd3g8mJavG-2FdmV1azNkQVp0YkdblJ0tEtKarW1nadMSkXz0IImjdHE_Gn8br7tjpCgnwemOArZ7g1uz8a3myks0225pgW2pRQCMn4OOOVEdE&utm_content=248499714&utm_source=hs_email)
 
 ### Triton
 * [Model Analyzer Blog](https://developer.nvidia.com/blog/maximizing-deep-learning-inference-performance-with-nvidia-model-analyzer/)
