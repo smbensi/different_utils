@@ -67,6 +67,10 @@
 * [ ] [digital video intro](https://github.com/leandromoreira/digital_video_introduction#redundancy-removal)
 * [ ] [how video works](https://howvideo.works/#playback)
 * [ ] [intro FFMPEG ](https://github.com/leandromoreira/ffmpeg-libav-tutorial#ffmpeg-libav-architecture)
+* [x] [Digital Video Cameras particularly Jetson JetsonHacks](https://jetsonhacks.com/2022/01/13/in-depth-cameras/)
+* [ ] [ISP on Jetson RidgeRun](https://developer.ridgerun.com/wiki/index.php?title=NVIDIA_Jetson_ISP_Control#NVIDIA_Jetson_ISP_Control_Description)
+* [ ] [The Linux USB Video Class (UVC) driver](https://www.kernel.org/doc/html/v4.9/media/v4l-drivers/uvcvideo.html)
+* [x] [USB cameras JetsonHAcks](https://jetsonhacks.com/2022/02/02/in-practice-usb-cameras-on-jetson/) 
 
 
 ## Algo
