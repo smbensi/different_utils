@@ -22,3 +22,12 @@
       Change to new directory : `chdir(new_dir)`
 
 
+# OOP
+- [general article on RealPython](https://realpython.com/python-classes/#toc) You can learn about different topics related to OOP in Python like:\
+      - @property: to make an attribute like method based  and also protect the attribute changing\
+      - attributes are in a dictionary  or can save memory using __slots__ (and avoiud attributes adding)\
+      - different types of methods or attributes: instance (self), class (cls and @classmethod), static (@staticmethod not using attributes of the class)\
+      - special types of classes like **dataclasses** (for dataholder) and **enum** (for constants) \
+      - inheritance/multi-inheritance using super() and its alternatives like **composition** and **delegation** \
+      - ABC classes to create a uniform API , contains only @abstractmethod \
+      - polymorphism: the childs class contain the same interface to not be dependent of the type \
