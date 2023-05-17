@@ -1,0 +1,5 @@
+- VISTA simulator to train driving 
+- DL : extract core patterns from raw data using neural networks 
+- hierarchical learning of features
+- algorithms are extremely parallelizable
+- 
