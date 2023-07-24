@@ -53,7 +53,7 @@
  - [ ] [A Geometrical Understanding of Matrices](https://gregorygundersen.com/blog/2018/10/24/matrices/)
  - [ ] [Singular Value Decomposition as Simply as Possible](https://gregorygundersen.com/blog/2018/12/10/svd/)
  - [Essence of Linear Algebra 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)  **VERY VERY INTERESTING**
- - [ ] [KL divergence explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+ - [x] [KL divergence explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
  - [ ] [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
  - [ ] [AlphaTensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
 
