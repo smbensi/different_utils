@@ -36,3 +36,5 @@ from blackjack import card_score
 def test_simple_usecase(cards, score):
     assert card_score(cards) == score
 ```
+
+You can create a test folder with a \_\_init__.py file
