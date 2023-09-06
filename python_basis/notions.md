@@ -47,3 +47,9 @@
       and inside you define a function *__subclasshook__(cls,subclass)* with the decorator @classmethod\
       - You can use *register()* to define that the class is a subclass but it's a little bit tricky\
       - lastly, if you want to enforce the subclass to define a method you can define the abstract method with the decorator **@abc.abstractmethod** and in the subclass you get an error if one of these methods is not implemented
+
+## JSON 
+- [REAL PYTHON](https://realpython.com/python-json/)
+- nice way to encode and decode not basic types
+- run a python script interactively with 
+>python -i script.py
