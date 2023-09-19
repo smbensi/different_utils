@@ -1,5 +1,6 @@
-pytest : tool that allows to write **unitest**
+# pytest : tool that allows to write **unitests**
 
+[github source](https://github.com/koaning/blackjack/)
 
 install pytest:
 > python -m pip install pytest
@@ -38,3 +39,52 @@ def test_simple_usecase(cards, score):
 ```
 
 You can create a test folder with a \_\_init__.py file
+
+pytest gives a context manager
+```python 
+def test_raise_error():
+    with pytest.raises(ValueError):
+        card_score("")
+```
+
+# pytest-cov package for coverage
+
+run
+> pytest --cov blackjack
+
+can show how many of the lines of code have been tested during the 
+tests
+
+You can have a longer report with this instruction
+> pytest --cov blackjack --cov-report html
+
+You should see a new htmlcov folder that contains the index.html file that gives you the drilldown.
+
+# Git
+
+you can run the tests on every pull or push with a particular config file
+
+```yaml
+# .github/workflows/pythonpackage.yml
+name: Python package
+
+on: [push, pull_request]
+
+jobs:
+build:
+  runs-on: ubuntu-latest
+  strategy:
+  matrix:
+      python-version: [3.7]
+
+  steps:
+  - uses: actions/checkout@v2
+  - name: Set up Python ${{ matrix.python-version }}
+  uses: actions/setup-python@v1
+  with:
+      python-version: ${{ matrix.python-version }}
+  - name: Test with pytest
+  run: |
+      pip install pytest
+      pytest --verbose
+```
